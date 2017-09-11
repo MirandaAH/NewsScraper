@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="well">
+    <ul id="articleBox">
+      {{#each results}}
+        <li class="title"><h3>{{this.title}}</h3>
+          <hr>
+          <a href="{{this.link}}" class="articleBtn">Link to Full Article</a>
+          <a href="/save/{{this.id}}" role="button" class="articleBtn">Save Article</a>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>

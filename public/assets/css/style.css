@@ -1,0 +1,20 @@
+#articleBox {
+  list-style: none;
+  padding: 5px;
+}
+
+.articleBtn {
+  padding: 5px;
+  color: #333333;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+}
+.articleBtn:hover, .articleBtn:link, .articleBtn:visited {
+  text-decoration: none;
+}
+.title {
+  background-color: slategrey;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
